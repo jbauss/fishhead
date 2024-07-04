@@ -5,6 +5,10 @@
   {{ section.title }}
 </h1>
 
+<p>
+  Here you can find my writing. I'll write about games, books, music and my life.
+</p>
+
 <ul>
   {% for page in section.pages %}
   <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a> - {{ page.date }}</li>

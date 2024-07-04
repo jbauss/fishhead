@@ -1,0 +1,56 @@
+// General
+
+body {
+
+}
+
+h1 {
+    // font-family: Georgia;
+    // font-family: Lato;
+    font-size: 5em;
+    margin-top: 0;
+}
+
+p {
+    // font-family: 'Gill Sans';
+    font-size: 2em;
+}
+
+ul {
+    font-size: 2em;
+}
+
+.container {
+    min-width: 50em;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    display: flex;
+}
+
+// Navigation
+
+.profile {
+    border-radius: 5em;
+    height: 10em;
+    width: 10em;
+}
+
+.navigation {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.navigation ul {
+    font-size: 2em;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+// Content
+
+.content {
+    margin-top: 5em;
+    margin-left: 2em;
+}

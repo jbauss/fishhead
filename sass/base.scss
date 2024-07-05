@@ -1,15 +1,19 @@
 // General
+
 h1 {
     font-size: 5em;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 h2 {
     font-size: 3em;
+    margin-bottom: 0;
 }
 
 h3 {
     font-size: 2em;
+    margin-bottom: 0;
 }
 
 p {
@@ -75,7 +79,7 @@ body {
 
 .content {
     margin-top: 5em;
-    margin-left: 3.5em;
+    margin-left: 4em;
     font-family: 'Times New Roman', Times, serif;
     order: 2;
 }

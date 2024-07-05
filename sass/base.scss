@@ -88,11 +88,11 @@ body {
     color: lightgray;
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 1000px) {
     .content    { flex: 3 0px; }
 }
 
-@media all and (orientation: portrait) {
+@media all and (max-width: 999px) {
     .container {
         display: flex;
         flex-flow: column;

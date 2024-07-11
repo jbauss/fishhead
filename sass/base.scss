@@ -28,6 +28,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 2em;
+    margin: 0;
 }
 
 .container {
@@ -102,6 +103,9 @@ body {
 
 @media all and (min-width: 1000px) {
     .content    { flex: 3 0px; }
+    .container {
+        margin-left: calc(100vw - 100%);
+    }
 }
 
 @media all and (max-width: 999px) {

@@ -6,12 +6,12 @@
 </h1>
 
 <p>
-  Here you can find my writing. I'll write about games, books, music and my life.
+  Here you can find my writing. I write about games, books, music and my life.
 </p>
 
-<ul>
+<ul class="post-list">
   {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a> - {{ page.date | date(format="%d.%m.%Y") }}</li>
+  <li>{{ page.date | date(format="%d.%m.%Y") }} &ndash; <a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
   {% endfor %}
 </ul>
 {% endblock content %}

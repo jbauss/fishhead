@@ -11,7 +11,7 @@
 
 <ul>
   {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a> - {{ page.date }}</li>
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a> - {{ page.date | date(format="%d.%m.%Y") }}</li>
   {% endfor %}
 </ul>
 {% endblock content %}

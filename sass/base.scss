@@ -101,6 +101,13 @@ body {
     color: lightgray;
 }
 
+// Blog posts
+
+.post-info {
+    margin-top: .5em;
+    font-size: 1.7em;
+}
+
 @media all and (min-width: 1000px) {
     .content    { flex: 3 0px; }
     .container {

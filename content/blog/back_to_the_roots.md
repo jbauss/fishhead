@@ -1,11 +1,10 @@
 +++
 title = "back to the roots"
 date = 2024-07-05
+description = "Here it is. I've been playing with the idea of making a personal website again for a while now. As I've mentioned on the about page, video games are how I got into technology in the first place and building little personal web- and fansites turned me from a user into a creator."
 +++
 
 Here it is. I've been playing with the idea of making a personal website again for a while now. As I've mentioned on the [about page](@/about.md), video games are how I got into technology in the first place and building little personal web- and fansites turned me from a user into a creator.
-
-<!-- more -->
 
 I got into creating sites around the age of 13 when a boy I met during my summer vacation told me of the German online chat website _Knuddels_. Before that time I knew of the internet's existence and had used it to look up some facts for school presentations but I didn't grasp the magic of it all so I stuck to playing video games and watching anime on TV after school.
 

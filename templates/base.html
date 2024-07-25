@@ -5,6 +5,13 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="/base.css"/>
   <title>FishHead's Site</title>
+  {% if page.title %}
+  <meta property="og:title" content="{{ page.title }}" />
+  {% endif %}
+  {% if page.summary %}
+  <meta property="og:description" content="{{ page.summary }}" />
+  {% endif %}
+  <meta property="og:image" content="/profile.png" />
 </head>
 
 <body>

@@ -5,6 +5,8 @@ date = 2024-07-25
 
 Over the past couple of years I've been thinking on and off about getting a library card but I always found excuses not to. About two months ago I went to my local library and finally got one.
 
+<!-- more -->
+
 Now if using the library is free where you live you might wonder why I hesitated in the first place but here in Hamburg it actually costs money to get a library card. 45€ per year to be exact. That's not a huge amount of money of course but in an ideal world it would be free for everybody. At least the price is reduced to 20€ per year for disadvantaged people and children of parents without a job don't pay anything at all. But there is definitely some room to grow for a more fair and inclusive library system. Until then I pay gladly.
 
 My excuses were never great and I knew that. They were the kind of excuses you use to justify why you just can't cook a healthy meal today or why you're really honestly just way too busy to exercise at the moment. So it didn't take much convincing for me to eventually give it a try.

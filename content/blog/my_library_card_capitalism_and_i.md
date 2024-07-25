@@ -1,7 +1,7 @@
 +++
 title = "my library card, capitalism and i"
 date = 2024-07-25
-description = "Over the past couple of years I've been thinking on and off about getting a library card but I always found excuses not to. About two months ago I went to my local library and finally got one &ndash; a decisive blow against capitalism."
+description = "Over the past couple of years I've been thinking on and off about getting a library card but I always found excuses not to. About two months ago I went to my local library and finally got one - a decisive blow against capitalism."
 +++
 
 Over the past couple of years I've been thinking on and off about getting a library card but I always found excuses not to. About two months ago I went to my local library and finally got one &ndash; a decisive blow against capitalism.

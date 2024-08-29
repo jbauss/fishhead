@@ -2,20 +2,25 @@
 
 {% block content %}
 <h1 class="title">
-    {{ section.title }}
+    {{ page.title }}
 </h1>
 
-{{ section.content | safe }}
+{{ page.content | safe }}
 
-<div>
-    {% for asset in section.assets -%}
-      {%- if asset is matching("[.](jpg|png|gif)$") -%}
-        {% set image = resize_image(path=asset, width=240, height=180) %}
-        <a href="{{ get_url(path=asset) }}" target="_blank">
-          <img src="{{ image.url }}" />
-        </a>
-      {%- endif %}
-    {%- endfor %}
+<h3>Signalis postcard design</h3>
+<p>Inspired by a game-themed postcard exchange at the Insert Credit forums I made this postcard design in Affinity Designer and had it printed.</p>
+<div class="gallery">
+  <a href="https://cdna.artstation.com/p/assets/images/images/078/684/794/large/fishhex-eye-center-vineta.jpg?1722809997" target="_blank">
+    <img src="https://cdna.artstation.com/p/assets/images/images/078/684/794/large/fishhex-eye-center-vineta.jpg?1722809997">
+  </a>
+  <a href="https://cdna.artstation.com/p/assets/images/images/079/452/032/large/fishhex-img-20240829-174519.jpg?1724946394" target="_blank">
+    <img src="https://cdna.artstation.com/p/assets/images/images/079/452/032/large/fishhex-img-20240829-174519.jpg?1724946394">
+  </a>
 </div>
+<h3>My first Blender animation</h3>
+<p>I always wanted to try out blender and now I finally did. This gameboy animation was created over the course of one afternoon and is an hommage to my very first gaming console, lovingly called "the brick".</p>
+<video autoplay="" controlslist="nodownload" id="video_html5_api" loop="" muted="muted" playsinline="playsinline" poster="https://cdn.artstation.com/p/thumbnails/002/052/227/thumb.jpg" tabindex="-1" preload="auto">
+  <source src="https://cdn.artstation.com/p/video_sources/002/112/976/0001-0120.mp4" type="video/mp4">
+</video>
 
 {% endblock content %}

@@ -115,6 +115,33 @@ body {
     font-size: 1.7em;
 }
 
+// Gallery
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery a {
+    margin-bottom: 1em;
+    width: 49%;
+}
+
+.content video {
+    margin-bottom: 1em;
+    width: 45%;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content video {
+    width: 100%;
+}
+
 @media all and (min-width: 1000px) {
     .content    { flex: 3 0px; }
     .container {
@@ -144,5 +171,16 @@ body {
 
     .content {
         margin-top: 0;
+        margin-left: 0;
+    }
+
+    .gallery a {
+        margin-bottom: 1em;
+        min-width: 100%;
+    }
+    
+    .gallery video {
+        margin-bottom: 1em;
+        width: 100%;
     }
 }

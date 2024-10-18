@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://fishhead.info/</loc>
+    </url>
+    <url>
+        <loc>https://fishhead.info/about/</loc>
+    </url>
+    <url>
+        <loc>https://fishhead.info/blog/</loc>
+    </url>
+    <url>
+        <loc>https://fishhead.info/blog/back-to-the-roots/</loc>
+        <lastmod>2024-07-05</lastmod>
+    </url>
+    <url>
+        <loc>https://fishhead.info/blog/i-watched-serial-experiments-lain/</loc>
+        <lastmod>2024-10-14</lastmod>
+    </url>
+    <url>
+        <loc>https://fishhead.info/blog/my-library-card-capitalism-and-i/</loc>
+        <lastmod>2024-07-25</lastmod>
+    </url>
+    <url>
+        <loc>https://fishhead.info/gallery/</loc>
+    </url>
+</urlset>
